@@ -9,7 +9,7 @@ A page view controller app using the page curl feature
 
 
 **Technical Info:** \
-Xcode 11 project written in Swift 5 for iOS\
+Xcode 11 project written in Swift 5 for iOS
 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
