@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		936ACD00249C7B6800D7F065 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 936ACCFF249C7B6800D7F065 /* LICENSE */; };
 		936ACD02249C7B6C00D7F065 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 936ACD01249C7B6C00D7F065 /* README.md */; };
+		9397BA97249EF5D5008AB845 /* FlimFlam.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9397BA96249EF5D5008AB845 /* FlimFlam.gif */; };
 		93B5383A218A8DEC0040340C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B53839218A8DEC0040340C /* AppDelegate.swift */; };
 		93B5383C218A8DEC0040340C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5383B218A8DEC0040340C /* RootViewController.swift */; };
 		93B5383E218A8DEC0040340C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5383D218A8DEC0040340C /* DataViewController.swift */; };
@@ -17,12 +18,13 @@
 		93B53845218A8DF20040340C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B53844218A8DF20040340C /* Assets.xcassets */; };
 		93B53848218A8DF20040340C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B53846218A8DF20040340C /* LaunchScreen.storyboard */; };
 		93B53852218AA0960040340C /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B53851218AA0960040340C /* LaunchViewController.swift */; };
-		93FA1358249EF0AD000B2D9C /* FlimFlam.gif in Resources */ = {isa = PBXBuildFile; fileRef = 93FA1357249EF0AD000B2D9C /* FlimFlam.gif */; };
+		93D8DD7324BF5CCC0096CD53 /* FlimFlam.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D8DD7224BF5CCC0096CD53 /* FlimFlam.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		936ACCFF249C7B6800D7F065 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		936ACD01249C7B6C00D7F065 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9397BA96249EF5D5008AB845 /* FlimFlam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlimFlam.gif; sourceTree = "<group>"; };
 		93B53836218A8DEC0040340C /* FlimFlam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlimFlam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B53839218A8DEC0040340C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B5383B218A8DEC0040340C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +35,7 @@
 		93B53847218A8DF20040340C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B53849218A8DF20040340C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B53851218AA0960040340C /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
-		93FA1357249EF0AD000B2D9C /* FlimFlam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlimFlam.gif; sourceTree = "<group>"; };
+		93D8DD7224BF5CCC0096CD53 /* FlimFlam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlimFlam.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +52,39 @@
 		936ACCFE249C7B3000D7F065 /* GitHub-Images */ = {
 			isa = PBXGroup;
 			children = (
-				93FA1357249EF0AD000B2D9C /* FlimFlam.gif */,
+				93D8DD7224BF5CCC0096CD53 /* FlimFlam.png */,
+				9397BA96249EF5D5008AB845 /* FlimFlam.gif */,
 			);
 			path = "GitHub-Images";
+			sourceTree = "<group>";
+		};
+		9397BA91249EF286008AB845 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				93B53844218A8DF20040340C /* Assets.xcassets */,
+				93B53839218A8DEC0040340C /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9397BA92249EF295008AB845 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93B53851218AA0960040340C /* LaunchViewController.swift */,
+				93B5383D218A8DEC0040340C /* DataViewController.swift */,
+				93B5383F218A8DEC0040340C /* ModelController.swift */,
+				93B5383B218A8DEC0040340C /* RootViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9397BA93249EF2A8008AB845 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				93B53841218A8DEC0040340C /* Main.storyboard */,
+				93B53846218A8DF20040340C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		93B5382D218A8DEC0040340C = {
@@ -77,14 +109,9 @@
 		93B53838218A8DEC0040340C /* FlimFlam */ = {
 			isa = PBXGroup;
 			children = (
-				93B53839218A8DEC0040340C /* AppDelegate.swift */,
-				93B5383B218A8DEC0040340C /* RootViewController.swift */,
-				93B53851218AA0960040340C /* LaunchViewController.swift */,
-				93B5383D218A8DEC0040340C /* DataViewController.swift */,
-				93B5383F218A8DEC0040340C /* ModelController.swift */,
-				93B53841218A8DEC0040340C /* Main.storyboard */,
-				93B53844218A8DF20040340C /* Assets.xcassets */,
-				93B53846218A8DF20040340C /* LaunchScreen.storyboard */,
+				9397BA93249EF2A8008AB845 /* Storyboards */,
+				9397BA92249EF295008AB845 /* Controllers */,
+				9397BA91249EF286008AB845 /* Root */,
 				93B53849218A8DF20040340C /* Info.plist */,
 			);
 			path = FlimFlam;
@@ -149,11 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FA1358249EF0AD000B2D9C /* FlimFlam.gif in Resources */,
+				9397BA97249EF5D5008AB845 /* FlimFlam.gif in Resources */,
 				93B53848218A8DF20040340C /* LaunchScreen.storyboard in Resources */,
 				93B53845218A8DF20040340C /* Assets.xcassets in Resources */,
 				936ACD02249C7B6C00D7F065 /* README.md in Resources */,
 				936ACD00249C7B6800D7F065 /* LICENSE in Resources */,
+				93D8DD7324BF5CCC0096CD53 /* FlimFlam.png in Resources */,
 				93B53843218A8DEC0040340C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
