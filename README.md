@@ -1,5 +1,5 @@
 # Flim Flam
-[![Xcode version](https://img.shields.io/badge/xcode-11%20-brightgreen)](https://developer.apple.com/xcode/)
+[![Xcode version](https://img.shields.io/badge/xcode-12%20-brightgreen)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
@@ -9,7 +9,7 @@ A page view controller app using the page curl feature
 
 
 **Technical Info:** \
-Xcode 11 project written in Swift 5 for iOS
+Xcode 12 project written in Swift 5 for iOS 13
 
 **See Also:** \
 [Quickies - an assortment of iOS apps](https://github.com/PepperoniJoe/Quickies)\
