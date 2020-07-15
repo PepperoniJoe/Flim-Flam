@@ -12,9 +12,6 @@ A page view controller app using the page curl feature
 Xcode 11 project written in Swift 5 for iOS
 
 **See Also:** \
-
-Make-Icons-Swiftly
-**See Also:** \
 [Quickies - an assortment of iOS apps](https://github.com/PepperoniJoe/Quickies)\
  [Make Icons Swiftly - used to generate app icon sets
  ](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
