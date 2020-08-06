@@ -9,7 +9,8 @@ A page view controller app using the page curl feature
 
 
 **Technical Info:** \
-Xcode 12 project written in Swift 5 for iOS 13
+Xcode 12 project written in Swift 5 for iOS 13\
+page view controller, UIView.animate, segue, page curl transitions
 
 **See Also:** \
 [Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\

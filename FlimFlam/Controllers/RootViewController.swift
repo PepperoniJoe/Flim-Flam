@@ -56,8 +56,6 @@ extension RootViewController: UIPageViewControllerDelegate {
     
     func pageViewController(_ pageViewController: UIPageViewController, spineLocationFor orientation: UIInterfaceOrientation) -> UIPageViewController.SpineLocation {
         
-//        // iPhone display and iPad portrait
-//        if (orientation == .portrait) || (orientation == .portraitUpsideDown) || (UIDevice.current.userInterfaceIdiom == .phone) {
             let currentViewController = pageViewController.viewControllers?[0] ?? UIViewController()
             let currentViewControllers = [currentViewController]
             
@@ -68,30 +66,7 @@ extension RootViewController: UIPageViewControllerDelegate {
             
             pageViewController.isDoubleSided = false
             return .min
-//        }
-//        
-//        // iPad Landscape Display
-//        let currentViewController = pageViewController.viewControllers?[0] as? DataViewController ?? DataViewController()
-//        let indexOfCurrentViewController = modelController.indexOfViewController(currentViewController)
-//        var viewControllers = [UIViewController]()
-//        
-//        if (indexOfCurrentViewController == 0) || (indexOfCurrentViewController % 2 == 0) {
-//            let nextViewController = modelController.pageViewController(pageViewController, viewControllerAfter: currentViewController)
-//            if let nextViewController = nextViewController {
-//                viewControllers = [currentViewController, nextViewController]
-//            }
-//        } else {
-//            let previousViewController = modelController.pageViewController(pageViewController, viewControllerBefore: currentViewController)
-//            if let previousViewController = previousViewController {
-//                viewControllers = [previousViewController, currentViewController]
-//            }
-//        }
-//        
-//        pageViewController.setViewControllers(viewControllers, direction: .forward, animated: true, completion: {done in })
-//        
-//        return .mid
+
     }
-    
-    
 }
 
